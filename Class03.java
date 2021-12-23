@@ -8,7 +8,7 @@ public static void main(String args[]) throws IOException{
  String str;
  buf=new BufferedReader(new InputStreamReader(System.in));
 
- System.out.print("¿é¤J¤@­Ó¾ã¼Æ: ");
+ System.out.print("è¼¸å…¥ä¸€å€‹æ•´æ•¸: ");
  str=buf.readLine();
  n=Integer.parseInt(str);
 
@@ -18,5 +18,5 @@ System.out.println("1+2+...+"+n+"="+sum);
 }
 }
 
-//¿é¤J¤@­Ó¾ã¼Æ: 10
+//è¼¸å…¥ä¸€å€‹æ•´æ•¸: 10
 //1+2+...+10=55
