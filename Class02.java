@@ -5,12 +5,12 @@ public static void main(String args[]){
  Scanner scn=new Scanner(System.in);
  String str;
 
- System.out.print("¿é¤J¦r¦ê:");
+ System.out.print("è¼¸å…¥å­—ä¸²:");
  str=scn.nextLine();
 
- System.out.println("Âà´«¦¨¤j¼g: "+str.toUpperCase());
+ System.out.println("è½‰æ›æˆå¤§å¯«: "+str.toUpperCase());
 }
 }
 
-//¿é¤J¦r¦ê:Knowldege is power.
-//Âà´«¦¨¤j¼g: KNOWLDEGE IS POWER.
+//è¼¸å…¥å­—ä¸²:Knowldege is power.
+//è½‰æ›æˆå¤§å¯«: KNOWLDEGE IS POWER.
