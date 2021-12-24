@@ -1,9 +1,9 @@
 import java.io.*;
 public class Main{
 public static void main(String args[]) throws IOException{
- FileReader fr1=new FileReader("C:\\Users\\user\\eclipse\\aaa.txt");
- FileReader fr2=new FileReader("C:\\Users\\user\\eclipse\\bbb.txt");
- FileWriter fw=new FileWriter("C:\\Users\\user\\eclipse\\ccc.txt");
+ FileReader fr1=new FileReader("c:\\java\\aaa.txt");
+ FileReader fr2=new FileReader("c:\\java\\bbb.txt");
+ FileWriter fw=new FileWriter("c:\\java\\bbb.txt");
  BufferedReader bfr1=new BufferedReader(fr1);
  BufferedReader bfr2=new BufferedReader(fr2);
  BufferedWriter bfw=new BufferedWriter(fw);
