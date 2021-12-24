@@ -3,7 +3,7 @@ public class Main{
 public static void main(String args[]) throws IOException{
  FileReader fr1=new FileReader("c:\\java\\aaa.txt");
  FileReader fr2=new FileReader("c:\\java\\bbb.txt");
- FileWriter fw=new FileWriter("c:\\java\\.txt");
+ FileWriter fw=new FileWriter("c:\\java\\ccc.txt");
  BufferedReader bfr1=new BufferedReader(fr1);
  BufferedReader bfr2=new BufferedReader(fr2);
  BufferedWriter bfw=new BufferedWriter(fw);
